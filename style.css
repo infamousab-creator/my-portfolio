@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: url('katakana-bg.png') no-repeat center center fixed;
+  background-size: cover;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.profile-box {
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 30px;
+  border-radius: 15px;
+  text-align: center;
+  max-width: 500px;
+}
+
+.avatar {
+  width: 120px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+
+.links a {
+  margin: 10px;
+  color: #00ffff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.links a:hover {
+  color: #ff66cc;
+}
+
+.clock {
+  margin-top: 20px;
+  font-size: 1.5em;
+}
